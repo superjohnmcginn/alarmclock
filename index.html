@@ -4,19 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alarm Clock</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
 </head>
 <body>
     <h1>Alarm Clock</h1>
-    <p>Current Time: <span id="current-time"></span></p>
-    <p>Current Date: <span id="current-date"></span></p>
-    <p>Countdown to Alarm: <span id="countdown"></span></p>
     <p id="status">Waiting for 8 AM on a weekday...</p>
     <audio id="audio" src="https://stream-relay-geo.ntslive.net/stream" type="audio/mpeg"></audio>
     <button onclick="document.getElementById('audio').play()">Test Alarm</button>
